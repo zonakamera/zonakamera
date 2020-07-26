@@ -3,27 +3,55 @@
             "title":"Kamera",
             "detail_kamera":{
                 "id_kamera":"Kam1",
-                "gambar_kamera":"/images/kam1.jpeg",
-                "nama_kamera":"Fujifilm XA60",
-                "harga_kamera":"Rp 14.500.000,-"
+                "gambar_kamera":"/images/kam.png",
+                "nama_kamera":"SONY ALPHA A6000",
+                "harga_kamera":"Rp 10.250.000,-"
+            }
+        },
+
+        {
+            "detail_kamera":{
+                "id_kamera":"Kam1",
+                "gambar_kamera":"/images/kam1.png",
+                "nama_kamera":"SONY A7 MARK II",
+                "harga_kamera":"Rp 24.500.000.-"
             }
         },
 
         {
             "detail_kamera":{
                 "id_kamera":"Kam2",
-                "gambar_kamera":"/images/kam2.jpeg",
+                "gambar_kamera":"/images/kam2.png",
                 "nama_kamera":"Canon Eos 5D",
-                "harga_kamera":"Rp 8.000.000.-"
+                "harga_kamera":"Rp 8.500.000.-"
             }
         },
 
         {
             "detail_kamera":{
                 "id_kamera":"Kam3",
-                "gambar_kamera":"/images/kam3.jpeg",
-                "nama_kamera":"Sony A6000",
-                "harga_kamera":"Rp 10.000.000.-"
+                "gambar_kamera":"/images/kam3.png",
+                "nama_kamera":"Fujifil Xa3",
+                "harga_kamera":"Rp 23.300.000.-"
+            }
+        },
+
+        {
+            "detail_kamera":{
+                "id_kamera":"Kam4",
+                "gambar_kamera":"/images/kam4.png",
+                "nama_kamera":"NIKON D550",
+                "harga_kamera":"Rp 4.000.000.-"
+            }
+        },
+        
+        {
+            "title":"Action Cam",
+            "detail_actkamera":{
+                "id_actkamera":"Act",
+                "gambar_actkamera":"/images/act.png",
+                "nama_actkamera":"GoPro Hero 4",
+                "harga_actkamera":"Rp 4.500.000.-"
             }
         },
 
@@ -31,8 +59,8 @@
             "title":"Action Cam",
             "detail_actkamera":{
                 "id_actkamera":"Act1",
-                "gambar_actkamera":"/images/act1.jpeg",
-                "nama_actkamera":"GoPro Hero 6",
+                "gambar_actkamera":"/images/act1.png",
+                "nama_actkamera":"Go Pro Hero 7",
                 "harga_actkamera":"Rp 7.500.000.-"
             }
         },
@@ -41,9 +69,9 @@
             "title":"Action Cam",
             "detail_actkamera":{
                 "id_actkamera":"Act2",
-                "gambar_actkamera":"/images/act2.jpeg",
-                "nama_actkamera":"Xiaomi Yi 5",
-                "harga_actkamera":"Rp 4.000.000.-"
+                "gambar_actkamera":"/images/act2.png",
+                "nama_actkamera":"Itek",
+                "harga_actkamera":"Rp 5.500.000.-"
             }
         },
 
@@ -51,9 +79,19 @@
             "title":"Action Cam",
             "detail_actkamera":{
                 "id_actkamera":"Act3",
-                "gambar_actkamera":"/images/act3.jpeg",
-                "nama_actkamera":"Bpro P40",
-                "harga_actkamera":"Rp 2.000.000.-"
+                "gambar_actkamera":"/images/act3.png",
+                "nama_actkamera":"Kogan",
+                "harga_actkamera":"Rp 3.500.000.-"
+            }
+        },
+
+        {
+            "title":"Action Cam",
+            "detail_actkamera":{
+                "id_actkamera":"Act4",
+                "gambar_actkamera":"/images/act4.png",
+                "nama_actkamera":"Xiaomi Yi 6",
+                "harga_actkamera":"Rp 2.500.000.-"
             }
         }
 

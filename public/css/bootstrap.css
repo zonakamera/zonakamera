@@ -55,14 +55,14 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  margin: 0;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.5;
-  color: #212529;
+  color: #ffffff;
   text-align: left;
-  background-color: #fff;
+  background-image:url("https://images2.alphacoders.com/940/thumb-1920-940.jpg");
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 abbr[title],
@@ -155,13 +155,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #cf0303;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #e60611;
   text-decoration: underline;
 }
 
@@ -410,9 +410,9 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2;
+  font-size: 3.0rem;
+  font-weight: 330;
+  line-height: 1.3;
 }
 
 hr {
@@ -543,8 +543,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -575,6 +575,7 @@ pre code {
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
+  height: 76px;
   padding-right: auto;
   padding-left: auto;
   margin-right: auto;
@@ -2072,7 +2073,7 @@ pre code {
   background-color: #fff;
   border-color: #80bdff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgb(196, 13, 13);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -2934,14 +2935,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
-  border-color: #28a745;
+  color: red;
+  border-color: white;
 }
 
 .btn-outline-success:hover {
-  color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  color: red;
+  background-color: white;
+  border-color: red;
 }
 
 .btn-outline-success:focus, .btn-outline-success.focus {
@@ -5270,9 +5271,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding: 3rem 2rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-image: url("https://coverfiles.alphacoders.com/567/56777.jpg");
+  background-size: cover;
   border-radius: 0.3rem;
 }
 
@@ -6799,13 +6801,13 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #212325 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #1d2124 !important;
+  background-color: red !important;
 }
 
 .bg-white {
@@ -10277,4 +10279,82 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+.jualan {
+  width: auto;
+  padding-right: auto;
+  padding-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  background-color: transparent;
+  overflow: hidden;
+}
+.jualan h2 {
+  color: crimson;
+  border-bottom: 1px solid gainsboro;
+  margin: 5px;
+  margin-bottom: 13px;
+}
+
+.kum-kamera {
+  border: 1px solid rgb(184, 12, 12);
+  padding: 5px;
+  float: left;
+  width: 200px;
+  margin: 5px;
+  height: auto;
+}
+
+.kum-kamera:hover {
+  transition-duration: 100ms;
+  box-shadow: 5px 5px gray;
+}
+
+.kum-kamera img {
+  width: 100%;
+  height: 175px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.kum-kamera p1, .kum-kamera h5 {
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.tombol {
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 6px;
+  display: block;
+  float: right;
+  width: 45%;
+  margin: 2px;
+  text-align: center;
+  color: white;
+}
+
+.tombol:hover {
+  background-color: rgb(19, 130, 138);
+  transition-duration: 700ms;
+}
+
+.tombol-rinci {
+  background-color: gray;
+}
+
+.tombol-tuku {
+  background-color: red;
+}
+
+.warna{
+  background-color: #EEE8AA		;
+}
+.footer{
+  clear: both;
+  height: auto;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

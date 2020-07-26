@@ -1,28 +1,33 @@
-import Link from 'next/link';
+
 function Menu(){
     return(
-<nav class="navbar navbar-expand-lg dark- bg-dark">  
+<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">  
+<div className="container">
 <a class="navbar-brand" href="#">
-    <img src="/images/brand.png" width="50" height="30" alt="zonakamera" ></img>
+    <img src="/images/brand.png" width="60" height="40" alt="zonakamera" ></img>
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <form class="form-inline my-3 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Cari Kamera...." aria-label="Search"></input>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+    </form>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item">
+  <div className="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul className="navbar-nav ml-auto">
+      <li className="nav-item active">
         <a class="nav-link " href="/">Beranda</a> 
       </li>
-      <li class="nav-item ">
+      <li className="nav-item active">
         <a class="nav-link " href="/kamera">Kamera</a>
       </li>
-      <li class="nav-item">
+      <li className="nav-item active">
         <a class="nav-link " href="/actioncam">Action Cam</a>
       </li>
-      <li class="nav-item">
+      <li className="nav-item active">
         <a class="nav-link " href="/feedback">Feedback</a>
       </li>
-      <li class="nav-item">
+      <li className="nav-item active">
         <a class="nav-link " href="/tentang">Tentang Kami</a>
       </li>
       <li class="nav-item dropdown" >
@@ -36,10 +41,7 @@ function Menu(){
       </li>
     </ul>
   </div>
-  <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Cari...." aria-label="Search"></input>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
-    </form>
+  </div>
 </nav>
 );
 }

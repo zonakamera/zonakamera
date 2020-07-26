@@ -2,23 +2,24 @@ import Layout from '../layouts/layout';
 
 export default function feedback(){
   return(
-    <div>
       <Layout>
-        <h1>Feedback Pelanggan</h1>
-        <div>
-          <input type="text" name="nama" placeholder="Nama" />
-        </div>
-        <div>
-          <input type="text" name="email" placeholder="Email" />
-        </div>
-        <div>
-          <textarea name="komentar" rows="10" placeholder="Ketik Feedback..."></textarea>
-        </div>
-        <div>
-          <input  type="submit" value="Kirim Feedback"/>
-        </div>
-      </Layout>
-    </div>     
+        <center><h4>Feedback Rate</h4></center>
+        <br></br>
+        <center><label for="customRange1">Rate 0 - 10</label></center>
+        <input type="range" class="custom-range" min="0" max="10" id="customRange2"></input>
+        <center><button type="submit" class="btn btn-primary">Kirim Feedback</button></center>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+      </Layout>    
   );
 }
 
